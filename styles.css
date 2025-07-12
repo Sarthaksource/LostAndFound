@@ -1,0 +1,60 @@
+body {
+  background-color: black;
+  color: gray;
+}
+
+input[type="file"]::file-selector-button:hover {
+  cursor: pointer;
+  background-color: gray;
+}
+
+svg:hover, .searchBtn:hover {
+  color: white;
+}
+
+.searchBtn {
+  background-color: gray;
+  border-radius: 5px;
+}
+
+input[type="file"]::file-selector-button {
+  background-color: black;
+  color: lightgray;  
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+
+.bg-custom, .bg-custom:focus {
+  background-color: black;
+  color: lightgray;  
+  border-color: gray;
+}
+
+.bg-custom::placeholder {
+  color: lightgray;  
+}
+
+.imgContainer {
+  padding: 20px;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+
+.btnContainer {
+  min-width: 300px;
+  overflow: hidden;
+  margin: auto;
+  max-width: 30%;
+  padding: 20px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0.3px #919191;
+}
+
+.imgContainer img {
+  max-width: 30%;
+}
+
+.btnContainer button {
+  margin-top: 15px;
+}
